@@ -1,0 +1,86 @@
+
+
+alias v='nvim'
+alias compile='gcc -o'
+
+
+
+alias ~='cd ~'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias mkdir="mkdir -pv"
+ndir() {
+    mkdir -pv $1
+    cd $1
+}
+mcd() {
+    mkdir -pv $1
+    cd $1
+}
+
+
+
+
+
+
+
+
+
+
+
+alias diff='colordiff'
+alias ls="ls --color=auto --human-readable --group-directories-first --classify"
+alias l="ls -l --color=auto --human-readable --group-directories-first --classify"
+alias la="ls -a --color=auto --human-readable --group-directories-first --classify"
+
+alias lla="ll -a --color=auto --human-readable --group-directories-first --classify"
+
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+
+alias rm="rm -vI"
+alias cp="cp -vi"
+alias mv="mv -vi"
+
+
+
+
+
+alias commit="git commit -m"
+alias push="git push origin master"
+alias pull="git pull"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alias userdir="cd /mnt/c/User/212564296/"
+
+
+
+alias dl="cd /mnt/c/User/212564296/Downloads"
+
+alias docs="cd /mnt/c/User/212564296/Documents"
+
+
+alias conf="cd ~/.config/"
+alias zshrc="nvim ~/.zshrc"
+alias vimrc="nvim ~/.config/nvim"
